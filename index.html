@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Sentiment.pro - Home - Social Sentiment Tool</title>
+
+    <!--MDBOOTSTRAP CSS-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+    
+    <!--MDBOOTSTRAP JS-->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+
+    <script src="https://www.moneybutton.com/moneybutton.js"></script>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<!--Navbar -->
+
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark black">
+  <a class="navbar-brand" href="./index.html">
+    <img src="./SP.png" height="30" alt="mdb logo">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">General
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SMI-Mood Index</a>
+          <a class="dropdown-item" href="#">SFI-Fear Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">World Markets
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SUSI-US Market Index</a>
+          <a class="dropdown-item" href="#">SEI-Europe Market Index</a>
+          <a class="dropdown-item" href="#">SAI-Asia Market Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Stocks
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SAPP-Apple Index</a>
+          <a class="dropdown-item" href="#">SFACE-Facebook Index</a>
+          <a class="dropdown-item" href="#">SNET-Netflix Index</a>
+          <a class="dropdown-item" href="#">SGOO-Alphabet Index</a>
+          <a class="dropdown-item" href="#">STSLA-TSLA Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Commodities
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SXAU-Gold Index</a>
+          <a class="dropdown-item" href="#">SXAG-Silver Index</a>
+          <a class="dropdown-item" href="#">SOIL-Oil Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Crypto
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SBTC-BTC Index</a>
+          <a class="dropdown-item" href="#">SBSV-BSV Index </a>
+          <a class="dropdown-item" href="#">SCRYPTO-Crypto Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Elections
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">SUSE- US Election Index</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Sports
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">On pause cause of Covid-19</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link" target=”_blank” href="https://www.moneybutton.com/">MoneyButton</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target=”_blank” href="https://twitter.com/sentimentdotpro/status/1249843663250825219">Earn Vote</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./claimindex.html">Claim Index</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank "href="https://twitter.com/sentimentdotpro" class="nav-link waves-effect waves-light">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--/.Navbar -->
+
+      <div class="container p-5">
+
+        <!--Section: Content-->
+        <section class="black-text">
+      
+          <!-- Section heading -->
+          <h2 class="font-weight-bold mb-4 pb-2">Welcome to Sentiment.pro</h2>
+          <!-- Section description -->
+          <p class="lead black-text mx-auto mb-5">
+              
+            Sentiment.pro is a social sentiment tool powered by Ecat.Media, MoneyButton and Whatsonchain. 
+            Anyone can share their sentiment on a Sentiment.pro index for 0.01 USD by signing up for a MoneyButton account.
+            You can earn bitcoin to vote by using the Earn Vote link in the navbar.
+
+            <br>
+            <br>
+
+            By tracking sentiment using Bitcoin(SV) ledger we can ensure integrity and immutability of every
+            sentiment vote. Anyone can watch our voting system and see if manipulation or other forms of hacking
+            has occured. Each index is also deployed on chain and has a txid. Simply put it is impossible to hack
+            the voting system and costly to manipulate it. If you want to manipulate votes you will only be paying
+            the index owner!
+
+            <br>
+            <br>
+
+            Sentiment.pro also allows anyone to create and monetize their own indices in return for a fixed cost +
+            10% voting revenue share. Anyone can be an index oracle for any market on a first come, first serve basis.
+            Voting revenue is used to pay for maintaining and growing the service. We are based out of Toronto, Canada.
+
+          </p>
+
+          <div class="container z-depth-1 my-5">
+
+            <section class="text-center py-5">
+
+              <!-- Section heading -->
+              <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">Powered by:</h3>
+              <hr class="w-header">
+                    
+              <!-- Logo carousel -->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1800">
+                <div class="carousel-inner">
+                  <!-- First slide -->
+                  <div class="carousel-item active">
+                    <!--Grid row-->
+                    <div class="row">
+          
+                      <!--First column-->
+                      <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="./ecatlogo.png" class="img-fluid px-4" alt="Logo">
+                      </div>
+                      <!--/First column-->
+          
+                      <!--Second column-->
+                      <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="./woclogo.png" class="img-fluid px-4" alt="Logo">
+                      </div>
+                      <!--/Second column-->
+          
+                      <!--Third column-->
+                      <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="./mblogo.png" class="img-fluid px-4" alt="Logo">
+                      </div>
+                      <!--/Third column-->
+          
+                    </div>
+                    <!--/Grid row-->
+                  </div>
+                  <!-- First slide -->
+          
+                </div>
+          
+              </div>
+              <!-- Logo carousel -->
+              
+            </section>
+          
+          </div>
+
+          <div class="container my-5">
+
+
+            <!--Section: Content-->
+            <section>
+          
+              <!-- Section heading -->
+              <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">FAQs</h3>
+              <hr class="w-header">
+              <!-- Section description -->
+              <p class="lead text-muted mx-auto mt-4 pt-2 mb-5 text-center">Got a question? We've got answers. If you have other questions contact us using button below.</p>
+          
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">Why Bitcoin SV?</h5>
+                  <p class="text-muted">Bitcoin SV is the original bitcoin public ledger, an enterprise public ledger with large blocks which can store gigabytes 
+                    of transactions making it ideal for projects with high number of interactions and transactions.</p>
+                </div>
+          
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">Why are indices onchain?</h5>
+                  <p class="text-muted">The Bitcoin blockchain offers immutability, transparency and security. Once a vote or sentiment is recorded as a transaction in a block, 
+                    it will stay there forever along with its metadata. Anyone has the ability to check for the validity of the data at any time.</p>
+                </div>
+          
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">What is voting revenue?</h5>
+                  <p class="text-muted">A Sentiment.pro vote costs $0.01 USD. The more votes an index receives the more money an index owner can earn. Sentiment.pro
+                    earns voting revenue from indices we deploy.
+                  </p>
+                </div>
+          
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">How can I earn voting revenue?</h5>
+                  <p class="text-muted">Anyone can claim a Sentiment.pro index for a fixed cost of $25.00 USD plus 0% share in voting revenue. You can track sentiment for a stock, 
+                    cryptocurrency, commodities, politics, events, celebs, athletes and even your own business!   
+                  </p>
+                </div>
+          
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">How do we democratize sentiment?</h5>
+                  <p class="text-muted">Anyone from anywhere can vote with a penny! If someone manipulates the vote they pay the index owner. Manipulating an index is a
+                    costly signal.
+                  </p>
+                </div>
+          
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <h5 class="font-weight-normal mb-3">Tradingview Charts</h5>
+                  <p class="text-muted">If your index can be charted on Tradingview there is an option to embed a chart.</p>
+                </div>
+              </div>
+          
+            </section>
+            
+          </div>
+      
+        </section>
+        <!--Section: Content-->
+      
+      </div>
+      
+
+<!-- Footer -->
+<footer class="page-footer font-small black pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+
+      <li class="list-inline-item">
+        <!-- Button trigger modal -->
+        <a class="btn btn-outline-white" href="./contact.html">Contact</a>
+      </li>
+
+      <li class="list-inline-item">
+      <!-- Button trigger modal -->
+      <a class="btn btn-outline-white" href="./terms.html">Terms</a>
+      </li>
+
+    </ul>
+    <!-- Call to action -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="http://sentiment.pro"> Sentiment.pro</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    </div>
+
+    
+</body>
+
+</html>

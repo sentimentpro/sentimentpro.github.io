@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Sentiment.pro - Claim Index - Social Sentiment Tool</title>
+
+    <!--MDBOOTSTRAP CSS-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+    
+    <!--MDBOOTSTRAP JS-->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+
+    <!-- Moneybutton Script-->
+    <script src="https://www.moneybutton.com/moneybutton.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+<!--Navbar -->
+
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark black">
+  <a class="navbar-brand" href="./index.html">
+    <img src="./SP.png" height="30" alt="mdb logo">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link" target=”_blank” href="https://www.moneybutton.com/">MoneyButton</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target=”_blank” href="https://twitter.com/sentimentdotpro/status/1249843663250825219">Earn Vote</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./claimindex.html">Claim Index</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank "href="https://twitter.com/sentimentdotpro" class="nav-link waves-effect waves-light">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--/.Navbar -->
+
+<div class="container p-5">
+
+  <!--Section: Content-->
+  <section class="black-text">
+
+    <!-- Section heading -->
+    <h2 class="font-weight-bold mb-4 pb-2">Claim a Sentiment Index</h2>
+    <!-- Section description -->
+    <p class="lead black-text mx-auto mb-5">
+        
+      At Sentiment.pro we want to enable anyone or any company to measure sentiment for any topic they want. You can measure sentiment around
+      an athlete, celeb, brand, market, election or anything else you can think of. Pick 2-5 variables that you want measured. Send us your BSV address
+      that you have private keys for. After you click send, a moneybutton will appear where you or can swipe and submit your form and payment using bitcoin sv.
+      Every form submitted will be indexed on the bitcoin sv blockchain in an op_return. This will enable us to create task oriented work for developers 
+      in the near future.
+      <br>
+      <br>
+    </p>
+
+     <div class="container my-5 py-5 z-depth-1">
+ 
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Default form subscription -->
+          <form id="indexform" class="text-center">
+
+            <p class="h4 mb-4">Claim Your Index</p>
+
+            <p>
+              <a href="" target="_blank">Example of a live index.</a>
+            </p>
+
+            <p>
+              Claim a Sentiment.pro index for $25 USD and 10% revenue share. Please choose atleast 2 and upto 5 variables you would
+              like to measure with a unique bsv address for each variable. Make sure the keys to your public
+              addresses are backed up as all voting revenue will go to those keys.
+            </p>
+
+            <p>
+              <a href="./terms.html" target="_blank">By swiping MoneyButton you agree to our terms.</a>
+            </p>
+
+            <!-- Name -->
+            <input name="IndexName" type="text" id="FormIndexName" class="form-control mb-4" placeholder="Index Name (ex. Apple Sentiment Index, Gold Index)" required>
+
+             <!-- BsvAddress -->
+             <input name="BsvAddress" type="text" id="BsvAddressVariable" class="form-control mb-4" placeholder="your bsv address"required>
+
+             <!-- Variable1 -->
+             <input name="Variable1" type="text" id="FormVariable1" class="form-control mb-4" placeholder="Variable (ex. Thrilled, Yes)"required>
+
+             <!-- Variable2 -->
+             <input name="Variable2" type="text" id="FormVariable2" class="form-control mb-4" placeholder="Variable (ex. Happy, No)"required>
+
+             <!-- Variable3 -->
+             <input name="Variable3" type="text" id="FormVariable3" class="form-control mb-4" placeholder="Variable (ex. Neutral)">
+
+             <!-- Variable4 -->
+             <input name="Variable4" type="text" id="FormVariable4" class="form-control mb-4" placeholder="Variable (ex. Sad)">
+
+              <!-- Variable5 -->
+              <input name="Variable5" type="text" id="FormVariable5" class="form-control mb-4" placeholder="Variable (ex. Depressed)">
+
+             <!-- Tradingview -->
+             <input name="TradingviewLink" type="link" id="FormVariableTradingview" class="form-control mb-4" placeholder="Tradingview link">
+
+
+             <!-- Description -->
+             <textarea name="description" maxlength="140" type="text" id="FormIndexDescription" class="md-textarea form-control" rows="3" placeholder="Short description of index" required></textarea>
+            <!-- Submit button -->
+
+            <br>
+
+            <button class="btn my-5 py-2 btn-black"  type="submit"><div id="moneybutton">Pay</div></button>
+
+
+          </form>
+          <!-- Default form subscription -->
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+   
+
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small black pt-4">
+
+<!-- Footer Elements -->
+<div class="container">
+
+<!-- Call to action -->
+<ul class="list-unstyled list-inline text-center py-2">
+
+<li class="list-inline-item">
+  <!-- Button trigger modal -->
+  <a class="btn btn-outline-white" href="./contact.html">Contact</a>
+</li>
+
+<li class="list-inline-item">
+<!-- Button trigger modal -->
+<a class="btn btn-outline-white" href="./terms.html">Terms</a>
+</li>
+
+</ul>
+<!-- Call to action -->
+
+</div>
+<!-- Footer Elements -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a href="http://sentiment.pro"> Sentiment.pro</a>
+</div>
+<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</div>
+<script>
+
+var serialize_form = form => JSON.stringify(Array.from(new FormData(form).entries())
+.reduce((m, [ key, value ]) => Object.assign(m, { [key]: value }), {}));
+  
+
+
+$('#indexform').on('submit', function(event) {
+  event.preventDefault();
+  var json = serialize_form(this);
+  console.log(json);
+  const div = document.getElementById('moneybutton');
+  moneyButton.render(div, {
+    to: "1JSXwxZpQPgqAupt1Lm91gBdxRyBufxGW1",
+    amount: "00.01",
+    currency: "USD",
+    opReturn: json,
+    clientIdentifier: "05f41d0a3f2aaaacddaa1d80422cd03a",
+    onPayment: submitindex
+  })
+});function submitindex(payment){
+  console.log(payment);
+  document.getElementById('indexform').innerHTML =  `<a>Your claim was successful.</a><br>
+                                                    <a>Your claim txid is: ${payment.txid}</a><br>
+                                                    <a href="https://whatsonchain.com/tx/${payment.txid}">View your order on the blockchain.</a><br>
+                                                    <a>Your index will be live within 24 hrs.</a>`;
+
+  document.getElementById('moneybutton').style.display = "none";
+};
+</script>
+
+</body>
+
+</html>

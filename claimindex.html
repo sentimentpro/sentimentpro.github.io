@@ -85,6 +85,7 @@
       that you have private keys for. After you click send, a moneybutton will appear where you or can swipe and submit your form and payment using bitcoin sv.
       Every form submitted will be indexed on the bitcoin sv blockchain in an op_return. This will enable us to create task oriented work for developers 
       in the near future.
+
       <br>
       <br>
     </p>
@@ -115,6 +116,10 @@
               Claim a Sentiment.pro index for $10 USD and 50% revenue share. Please choose atleast 2 and upto 5 variables you would
               like to measure. Send us a bsv address you have private keys for. Make sure the keys to your public
               address are backed up as all voting revenue will go to those keys.
+
+              Index claimers can now add a comment section feature for $5.00 USD. All comment revenue goes to index owner. 
+              Each comment generates $0.01 USD for the index owner.
+
             </p>
 
             <p>
@@ -151,6 +156,8 @@
             <!-- Submit button -->
 
             <br>
+            Include Comment Section for a 5$ charge
+            <input type="checkbox" id="chat" name="chat" data-val="true" value="true">
 
             <button class="btn my-5 py-2 btn-black"  type="submit"><div id="moneybutton">Pay</div></button>
 
@@ -220,10 +227,18 @@ $('#indexform').on('submit', function(event) {
   event.preventDefault();
   var json = serialize_form(this);
   console.log(json);
+  console.log(chat.checked);
+  var amount;
+  if (chat.checked == true){
+      amount = "15.00"
+  } else{
+      amount = "10.00"
+  }
+  console.log(amount);
   const div = document.getElementById('moneybutton');
   moneyButton.render(div, {
     to: "",
-    amount: "10.00",
+    amount: amount,
     currency: "USD",
     opReturn: json,
     clientIdentifier: "05f41d0a3f2aaaacddaa1d80422cd03a",
